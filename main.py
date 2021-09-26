@@ -1,1 +1,1 @@
-print(hello)
+print(f"{len('string')} moment")
