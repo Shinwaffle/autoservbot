@@ -26,9 +26,9 @@ async def play(ctx, arg):
     }
 
     # https://www.youtube.com/watch?v=3RS4b3QmaSw
-    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-        ydl.download({arg})
-    print(video)
+    # with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    #    ydl.download({arg})
+    # print(video)
     vc.play(discord.FFmpegPCMAudio(
         executable="/bin/ffmpeg",
         source="funny.mp4"
