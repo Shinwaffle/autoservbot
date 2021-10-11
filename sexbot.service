@@ -1,0 +1,13 @@
+[Unit]
+Description=sexbot discord bot
+After=network.target
+
+[Service]
+Type=simple
+User=shin
+WorkingDirectory=/home/shin/sexbot
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=default.target
