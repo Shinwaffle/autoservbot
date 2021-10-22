@@ -1,0 +1,216 @@
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 41, in printer
+    await _set(True)
+  File "/home/shin/Projects/sexbot/main.py", line 44, in _set
+    await bot.change_presence(status=discord.Status.online,
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/client.py", line 1062, in change_presence
+    await self.ws.change_presence(activity=activity, status=status, afk=afk)
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 41, in printer
+    await _set(True)
+  File "/home/shin/Projects/sexbot/main.py", line 45, in _set
+    await bot.change_presence(status=discord.Status.online,
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/client.py", line 1062, in change_presence
+    await self.ws.change_presence(activity=activity, status=status, afk=afk)
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 41, in printer
+    await _set(True)
+  File "/home/shin/Projects/sexbot/main.py", line 45, in _set
+    await bot.change_presence(status=discord.Status.online,
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/client.py", line 1062, in change_presence
+    await self.ws.change_presence(activity=activity, status=status, afk=afk)
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 41, in printer
+    await _set(self.bot, True)
+  File "/home/shin/Projects/sexbot/main.py", line 45, in _set
+    await bot.change_presence(status=discord.Status.online,
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/client.py", line 1062, in change_presence
+    await self.ws.change_presence(activity=activity, status=status, afk=afk)
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=AttributeError("'StatusRetriever' object has no attribute 'message'")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 37, in printer
+    if '192.168.0.18' in self.message:
+AttributeError: 'StatusRetriever' object has no attribute 'message'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'int' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'int' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'NoneType' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'NoneType' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'int' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'int' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'int' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 38, in printer
+    if '192.168.0.18' in self.message:
+TypeError: argument of type 'int' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'int' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 37, in printer
+    if '255' in self.message:
+TypeError: argument of type 'int' is not iterable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Loop._loop() done, defined at /home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py:88> exception=TypeError("argument of type 'int' is not iterable")>
+Traceback (most recent call last):
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 125, in _loop
+    raise exc
+  File "/home/shin/.local/lib/python3.9/site-packages/discord/ext/tasks/__init__.py", line 101, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/shin/Projects/sexbot/main.py", line 37, in printer
+    if '255' in self.message:
+TypeError: argument of type 'int' is not iterable
