@@ -60,7 +60,7 @@ def _list():
 def _ssh_command(command):
     try:
         return subprocess.check_output(f"ssh shin@192.168.0.18 -p 30 {command}", shell=True)
-    except Exception:
+    except Exception: 
         return '255'
 
 @bot.command()
