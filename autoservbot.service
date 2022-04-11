@@ -1,11 +1,11 @@
 [Unit]
-Description=sexbot discord bot
+Description=autoservbot discord bot
 After=network.target
 
 [Service]
 Type=simple
 User=shin
-WorkingDirectory=/home/shin/sexbot
+WorkingDirectory=/home/shin/autoservbot
 ExecStart=/usr/bin/python3 main.py
 Restart=always
 
